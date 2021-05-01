@@ -50,7 +50,7 @@ class CalculadoraCientifica(Calculadora):
         self.exponencial = self.a ** self.b
     
     def calcular_logaritmo(self):
-        self.logaritmo = log(self.a, self.b)
+        self.logaritmo = log(self.b, self.a)
 
     def get_exponencial(self):
         return self.exponencial

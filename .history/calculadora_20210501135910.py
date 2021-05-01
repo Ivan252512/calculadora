@@ -1,5 +1,3 @@
-from math import log
-
 class Calculadora():
     def __init__(self, a, b):
         self.a = a
@@ -47,14 +45,14 @@ class CalculadoraCientifica(Calculadora):
         self.raiz_cuadrada = 0
         
     def calcular_exponencial(self):
-        self.exponencial = self.a ** self.b
+        pass
     
     def calcular_logaritmo(self):
-        self.logaritmo = log(self.a, self.b)
+        pass
 
     def get_exponencial(self):
-        return self.exponencial
+        pass
     
     def get_logaritmo(self):
-        return self.logaritmo
+        pass
     

@@ -1,4 +1,4 @@
-from math import log
+import math
 
 class Calculadora():
     def __init__(self, a, b):
@@ -50,7 +50,7 @@ class CalculadoraCientifica(Calculadora):
         self.exponencial = self.a ** self.b
     
     def calcular_logaritmo(self):
-        self.logaritmo = log(self.a, self.b)
+        self.logaritmo = math.log(self.b, self.a)
 
     def get_exponencial(self):
         return self.exponencial

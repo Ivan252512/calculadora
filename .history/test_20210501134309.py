@@ -50,8 +50,8 @@ class TestCalculadora(unittest.TestCase):
 class TestCalculadoraCientifica(unittest.TestCase):
     
     def setUp(self):
-        self.values_a = [i for i in range(2, 100)]
-        self.values_b = [i for i in range(2, 100)]
+        self.values_a = [i for i in range(1, 100)]
+        self.values_b = [i for i in range(1, 100)]
         self.calculadoras = []
         
         for a in self.values_a:

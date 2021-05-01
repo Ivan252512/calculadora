@@ -1,5 +1,3 @@
-from math import log
-
 class Calculadora():
     def __init__(self, a, b):
         self.a = a
@@ -13,31 +11,31 @@ class Calculadora():
         self.suma = self.a + self.b
     
     def restar(self):
-        self.resta = self.a - self.b
+        pass
     
     def multiplicar(self):
-        self.multiplicacion = self.a * self.b
+        pass
     
     def dividir(self):
-        self.division = self.a / self.b
+        pass
     
     def get_a(self):
-        print(self.a)
+        pass
     
     def get_b(self):
-        print(self.b)
+        pass
     
     def get_suma(self):
         return self.suma
     
     def get_resta(self):
-        return self.resta
+        pass
     
     def get_multiplicacion(self):
-        return self.multiplicacion
+        pass
     
     def get_division(self):
-        return self.division
+        pass
     
 class CalculadoraCientifica(Calculadora):
     def __init__(self, a, b):
@@ -47,14 +45,14 @@ class CalculadoraCientifica(Calculadora):
         self.raiz_cuadrada = 0
         
     def calcular_exponencial(self):
-        self.exponencial = self.a ** self.b
+        pass
     
     def calcular_logaritmo(self):
-        self.logaritmo = log(self.a, self.b)
+        pass
 
     def get_exponencial(self):
-        return self.exponencial
+        pass
     
     def get_logaritmo(self):
-        return self.logaritmo
+        pass
     

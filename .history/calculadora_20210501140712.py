@@ -1,5 +1,3 @@
-from math import log
-
 class Calculadora():
     def __init__(self, a, b):
         self.a = a
