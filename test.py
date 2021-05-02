@@ -67,6 +67,10 @@ class TestCalculadoraCientifica(unittest.TestCase):
         for c in self.calculadoras:
             c.calcular_logaritmo()
             self.assertEquals(c.get_logaritmo(), log(c.a, c.b))
+    
+    def test_calcular_factorial_a(self):
+        for c in self.calculadoras:
+            print(c.__dict__)
             
 if __name__ == '__main__':
     unittest.main()
