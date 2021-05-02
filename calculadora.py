@@ -22,10 +22,10 @@ class Calculadora():
         self.division = self.a / self.b
     
     def get_a(self):
-        print(self.a)
+        return self.a
     
     def get_b(self):
-        print(self.b)
+        return self.b
     
     def get_suma(self):
         return self.suma
@@ -45,6 +45,7 @@ class CalculadoraCientifica(Calculadora):
         self.exponencial = 0
         self.logaritmo = 0
         self.raiz_cuadrada = 0
+        self.factorial = 0
         
     def calcular_exponencial(self):
         self.exponencial = self.a ** self.b
@@ -58,3 +59,5 @@ class CalculadoraCientifica(Calculadora):
     def get_logaritmo(self):
         return self.logaritmo
     
+    def calcular_factorial_a(self):
+        
